@@ -1,0 +1,20 @@
+# Python and Jupyter temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local Spark and runtime files
+spark-warehouse/
+metastore_db/
+derby.log
+*.log
